@@ -1,0 +1,13 @@
+/Users/iamlizardo/repos/websys/string_transformation/stringTransformation/stringTransformation/bin/Debug/netcoreapp3.1/stringTransformation.deps.json
+/Users/iamlizardo/repos/websys/string_transformation/stringTransformation/stringTransformation/bin/Debug/netcoreapp3.1/stringTransformation.runtimeconfig.json
+/Users/iamlizardo/repos/websys/string_transformation/stringTransformation/stringTransformation/bin/Debug/netcoreapp3.1/stringTransformation.runtimeconfig.dev.json
+/Users/iamlizardo/repos/websys/string_transformation/stringTransformation/stringTransformation/bin/Debug/netcoreapp3.1/stringTransformation.dll
+/Users/iamlizardo/repos/websys/string_transformation/stringTransformation/stringTransformation/bin/Debug/netcoreapp3.1/stringTransformation.pdb
+/Users/iamlizardo/repos/websys/string_transformation/stringTransformation/stringTransformation/obj/Debug/netcoreapp3.1/stringTransformation.csproj.AssemblyReference.cache
+/Users/iamlizardo/repos/websys/string_transformation/stringTransformation/stringTransformation/obj/Debug/netcoreapp3.1/stringTransformation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/iamlizardo/repos/websys/string_transformation/stringTransformation/stringTransformation/obj/Debug/netcoreapp3.1/stringTransformation.AssemblyInfoInputs.cache
+/Users/iamlizardo/repos/websys/string_transformation/stringTransformation/stringTransformation/obj/Debug/netcoreapp3.1/stringTransformation.AssemblyInfo.cs
+/Users/iamlizardo/repos/websys/string_transformation/stringTransformation/stringTransformation/obj/Debug/netcoreapp3.1/stringTransformation.csproj.CoreCompileInputs.cache
+/Users/iamlizardo/repos/websys/string_transformation/stringTransformation/stringTransformation/obj/Debug/netcoreapp3.1/stringTransformation.dll
+/Users/iamlizardo/repos/websys/string_transformation/stringTransformation/stringTransformation/obj/Debug/netcoreapp3.1/stringTransformation.pdb
+/Users/iamlizardo/repos/websys/string_transformation/stringTransformation/stringTransformation/obj/Debug/netcoreapp3.1/stringTransformation.genruntimeconfig.cache

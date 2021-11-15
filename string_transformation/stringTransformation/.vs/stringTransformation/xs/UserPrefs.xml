@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{A21489BB-67F1-4A9F-AFE8-C5DE1BF39677}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="stringTransformation/Program.cs">
+    <Files>
+      <File FileName="stringTransformation/Program.cs" Line="10" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="stringTransformation" expanded="True">
+            <Node name="stringTransformation" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.stringTransformation PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
