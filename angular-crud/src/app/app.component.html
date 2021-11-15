@@ -1,0 +1,99 @@
+<div class="row" style="margin-top: 30px;">
+  <div class="col-4">
+    <form class="personalForm" id="login-form" name="personalForm" #personalForm="ngForm"
+      (ngSubmit)="personalForm.valid && Save()">
+      <div class="col mt-3">
+        <mat-form-field class="example-full-width" appearance="legacy">
+          <mat-label>Nombre</mat-label>
+          <input matInput required [(ngModel)]="Client.name" name="name" #name="ngModel" />
+          <mat-error *ngIf="name.errors?.required">
+            Este campo es obligatorio
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="col mt-3">
+        <mat-form-field class="example-full-width" appearance="legacy">
+          <mat-label>Apellido</mat-label>
+          <input matInput required [(ngModel)]="Client.lastName" name="lastname" #lastname="ngModel" />
+          <mat-error *ngIf="lastname.errors?.required">
+            Este campo es obligatorio
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="col">
+        <mat-form-field class="example-full-width" appearance="legacy">
+          <mat-label>Correo</mat-label>
+          <input matInput [(ngModel)]="Client.email" required type="email" name="email" #email="ngModel" email="true" />
+          <mat-error *ngIf="email.errors?.required">
+            Este campo es obligatorio
+          </mat-error>
+          <mat-error *ngIf="email.errors?.email">
+            Debe escribir un correo válido
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="col">
+        <mat-form-field class="example-full-width" appearance="legacy">
+          <mat-label>Teléfono</mat-label>
+          <input matInput required [(ngModel)]="Client.phone" name="phone" #phone="ngModel" />
+          <mat-error *ngIf="phone.errors?.required">
+            Este campo es obligatorio
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="col">
+        <div class="row">
+          <div class="col-12 text-center">
+            <button class="btn btn-primary"
+              mat-button type="submit" name="savebutton">
+              Guardar
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="col" style="margin-top: 40px;">
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+            <th>Telefono</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="
+            let c of ClientList
+             
+          ">
+            <td>
+              {{c?.name}}
+            </td>
+            <td>
+              {{c?.lastName}}
+            </td>
+            <td>
+              {{c?.email}}
+            </td>
+            <td>
+              {{c?.phone}}
+            </td>
+            <td>
+              <button class="btn btn-primary" style="background-color: red; color: white;"
+              mat-button name="deletebutton" (click)="Delete(c?.id)">
+              Borrar
+            </button>
+            </td>
+
+          </tr>
+
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
